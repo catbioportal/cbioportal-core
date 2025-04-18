@@ -37,11 +37,14 @@ public class ReferenceGenome {
     private Date releaseDate;
     public static String HOMO_SAPIENS = "human";
     public static String MUS_MUSCULUS = "mouse";
+    public static String FELIS_CATUS = "cat";
     public static String HOMO_SAPIENS_DEFAULT_GENOME_BUILD = "GRCh37";
     public static String HOMO_SAPIENS_DEFAULT_GENOME_NAME = "hg19";
+    public static String FELIS_CATUS_DEFAULT_GENOME_NAME = "felCat9";
     public static String MUS_MUSCULUS_DEFAULT_GENOME_BUILD = "GRCm38";
     public static String HOMO_SAPIENS_DEFAULT_GENOME_BUILD_PREFIX = "GRCh";
     public static String MUS_MUSCULUS_DEFAULT_GENOME_BUILD_PREFIX = "GRCm";
+    public static String FELIS_CATUS_DEFAULT_GENOME_BUILD_PREFIX = "Felis_catus_";
 
     /**
      * Constructor.

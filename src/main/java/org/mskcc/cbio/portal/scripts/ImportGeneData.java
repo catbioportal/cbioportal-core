@@ -86,6 +86,11 @@ public class ImportGeneData extends ConsoleRunnable {
                         // only import mouse genes
                         continue;
                     }
+                } else if (species.equals("cat")) {
+                    if (taxonomy!=9685) {
+                        // only import cat genes
+                        continue;
+                    }
                 } else {
                     throw new Error("Species "+species+" is not supported.");
                 }

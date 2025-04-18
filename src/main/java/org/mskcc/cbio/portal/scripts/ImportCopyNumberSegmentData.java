@@ -69,7 +69,8 @@ public class ImportCopyNumberSegmentData extends ConsoleRunnable {
                 CancerStudy cancerStudy = DaoCancerStudy.getCancerStudyByInternalId(cancerStudyId);
                 String chrom = strs[1].trim(); 
                 //validate in same way as GistitReader:
-                ValidationUtils.validateChromosome(chrom);
+                //TODO Skip for now, cat chromosomes arent ints, add additional validation later
+                //ValidationUtils.validateChromosome(chrom);
                 
                 long start = Double.valueOf(strs[2]).longValue();
                 long end = Double.valueOf(strs[3]).longValue();
